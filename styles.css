@@ -23,6 +23,7 @@ nav a:hover {
   font: normal normal normal 35px/79px Nunito;
   color: #e4e4e4;
   text-align: center;
+  line-height: 35px;
 }
 
 .home-center-title-text-bold {
@@ -90,7 +91,7 @@ nav a:hover {
 
 .bottom-info-div {
   background: #377dc8 0% 0% no-repeat padding-box;
-  border-radius: 35px;
+  border-radius: 25px;
   opacity: 1;
   text-align: left;
   font: normal normal normal 15px/30px Nunito;
@@ -111,6 +112,7 @@ nav a:hover {
   font: normal normal bold 15px/50px Nunito;
   color: #000000;
   letter-spacing: 2px;
+  line-height: 20px;
 }
 
 #toonofy-logo {
@@ -144,6 +146,7 @@ nav a:hover {
   color: #000000;
   margin-top: 0;
   text-align: center;
+  line-height: 20px;
 }
 .social-icon {
   color: #ffffff;
@@ -152,11 +155,19 @@ nav a:hover {
 
 /* FOR MOBILE DEVICES */
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .home-main {
     padding: 10px !important;
   }
   .content-category-parent {
+    padding: 10px !important;
+  }
+  .home-center-iframe {
+    width: 90% !important;
+    padding: 10px !important;
+  }
+  .content-category-container {
+    width: 90% !important;
     padding: 10px !important;
   }
 }
