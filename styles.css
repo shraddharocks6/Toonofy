@@ -2,6 +2,8 @@ body {
   background-color: #4da1fa;
 }
 
+/* FOR THE NAVBAR */
+
 nav a {
   text-align: center;
   font: normal normal normal 20px/27px Segoe UI;
@@ -14,6 +16,8 @@ nav a:hover {
   color: #ffffff !important;
   text-decoration: none;
 }
+
+/* FOR THE CENTRAL CONTENT WITH THE YOUTUBE VIDEO */
 
 .home-center-title-text {
   font: normal normal normal 35px/79px Nunito;
@@ -33,6 +37,9 @@ nav a:hover {
   opacity: 0.85;
   width: 86vw;
 }
+
+/* FOR THE CONTENT LIST WHICH PROVIDED VARIOUS OPTIONS ALONGSIDE ANIMAL IMAGES */
+
 .content-category-container {
   background: transparent
     radial-gradient(closest-side at 50% 50%, #48a4f6 0%, #2f8ae4 100%) 0% 0%
@@ -69,6 +76,8 @@ nav a:hover {
   color: #ffffff !important;
   text-decoration: none;
 }
+
+/* THE DIVIDER BETWNN MAIN CONTENT AND BOTTOM INFORMATION */
 
 .home-content-divider {
   height: 0px;
