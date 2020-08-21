@@ -1,3 +1,20 @@
+@media (max-width: 500px) {
+  /* .home-main {
+    padding: 10px !important;
+  }
+  .content-category-parent {
+    padding: 10px !important;
+  } */
+  /* .home-center-iframe {
+    width: 80vw !important;
+    padding: 10px !important;
+  }
+  .content-category-container {
+    width: 80vw !important;
+    padding: 10px !important;
+  } */
+}
+
 body {
   background-color: #4da1fa;
 }
@@ -154,20 +171,3 @@ nav a:hover {
 }
 
 /* FOR MOBILE DEVICES */
-
-@media (max-width: 500px) {
-  .home-main {
-    padding: 10px !important;
-  }
-  .content-category-parent {
-    padding: 10px !important;
-  }
-  .home-center-iframe {
-    width: 90% !important;
-    padding: 10px !important;
-  }
-  .content-category-container {
-    width: 90% !important;
-    padding: 10px !important;
-  }
-}
